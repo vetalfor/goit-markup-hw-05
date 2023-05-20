@@ -425,8 +425,7 @@ body {
 }
 .link-portfolio {
   display: block;
-  transition: transform var(--transition-duration-and-func),
-    box-shadow var(--transition-duration-and-func);
+  transition: box-shadow var(--transition-duration-and-func);
 }
 .link-portfolio:hover,
 .link-portfolio:focus {
