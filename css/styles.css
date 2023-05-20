@@ -320,7 +320,7 @@ body {
   height: 100%;
   border-radius: 50%;
   background-color: #4d5ae5;
-  transition: var(--transition-duration-and-func);
+  transition: background-color var(--transition-duration-and-func);
 }
 .social-list-link:hover,
 .social-list-link:focus {
@@ -348,7 +348,8 @@ body {
   border: 1px solid #8e8f99;
   border-radius: 4px;
   color: #8e8f99;
-  transition: var(--transition-duration-and-func);
+  transition: border-color var(--transition-duration-and-func),
+    color var(--transition-duration-and-func);
 }
 .customers-link:hover,
 .customers-link:focus {
