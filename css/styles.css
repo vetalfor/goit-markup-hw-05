@@ -99,7 +99,7 @@ body {
 }
 .link-item {
   position: relative;
-  display: flex;
+  display: block;
   padding: 24px 0;
   color: var(--main-title-color);
   transition: color var(--transition-duration-and-func);
@@ -114,6 +114,7 @@ body {
   left: 0;
   bottom: -1px;
   height: 4px;
+  width: 100%;
   background-color: var(--menu-text-color);
   border-radius: 2px;
   transition: transform var(--transition-duration-and-func);
