@@ -117,7 +117,6 @@ body {
   width: 100%;
   background-color: var(--menu-text-color);
   border-radius: 2px;
-  transition: transform var(--transition-duration-and-func);
 }
 .feedback-menu {
   font-style: normal;
