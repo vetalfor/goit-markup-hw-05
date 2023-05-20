@@ -98,10 +98,25 @@ body {
   gap: 40px;
 }
 .link-item {
+  position: relative;
   display: flex;
   padding: 24px 0;
   color: var(--main-title-color);
-  transition: var(--transition-duration-and-func);
+  transition: color var(--transition-duration-and-func);
+}
+.active {
+  color: var(--menu-text-color);
+}
+.active::after {
+  content: '';
+  position: absolute;
+  display: block;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: var(--menu-text-color);
+  border-radius: 2px;
+  transition: transform var(--transition-duration-and-func);
 }
 .feedback-menu {
   font-style: normal;
@@ -118,7 +133,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
-  transition: var(--transition-duration-and-func);
+  transition: color var(--transition-duration-and-func);
 }
 /* ===========/Шапка=========== */
 
